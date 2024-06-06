@@ -7,7 +7,7 @@ Uses a linear regression model to predict the future resale prices for public ho
 The dataset is collected from [Kaggle](https://www.kaggle.com/datasets/wildboarking/singapore-public-housing-resale-flat-prices).
 
 
-From what I have learnt, the model uses one of the 2 sets of formula (both are sum of squares) to calculate the output.
+From what I have learnt, the model uses one of the 2 sets of formula (both are minimum sum of squares) to calculate the output.
 
 - For a model with 1 feature:
 $$\min_{\beta_0, \beta_1} \sum_{i=1}^{n} \left( y_i - (\beta_0 + \beta_1 x_i) \right)^2$$
