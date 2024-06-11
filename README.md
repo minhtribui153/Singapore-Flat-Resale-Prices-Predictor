@@ -25,9 +25,6 @@ Where:
 
 There are two notebooks, [floor_area](./floor_area.ipynb) and [storey_number](./storey_number.ipynb) that use the first formula to predict the resale prices.
 
-![Resulting graph of Resale Price vs. Floor Area](./result/resale_price_vs_floor_area.jpg)
-![Resulting graph of Resale Price vs. Storey No.](./result/resale_price_vs_storey_num.jpg)
-
 On [main.py](./main.py), you can use the tool to predict the resale price of the public housing flats with both features while also being able to choose a location for the model to predict on.
 
 ![Demo](./misc/main.py%20Demo.gif)
